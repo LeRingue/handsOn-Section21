@@ -2,10 +2,38 @@ body{
   background-color: blue;
 }
 main{
-background-color: green;
+background-color: lightgreen;
 display: block;
 margin:20px auto;
 border-color: black;
 border-style: solid;
+width: 400px;
+}
 
+img{
+  width: 250px;
+  display:block;
+  margin:20px auto;
+  border-radius: 100%;
+  border-style: groove;
+  border-color: yellow;
+  border-width: 5px;
+}
+
+h1{
+  display:block;
+  color:blue;
+  font-weight: bold;
+  margin:20px 20px;
+}
+h2{
+  display:block;
+  color:red;
+  font-weight: bold;
+  margin:20px 20px;
+}
+p{
+  color:black;
+  font-weight: normal;
+  margin:20px auto;
 }
